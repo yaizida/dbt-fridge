@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: first_try
+    description: "Модель, которая извлекает данные о персонажах из таблицы star_wars."
+    columns:
+      - name: name
+        description: "Имя персонажа."
+      - name: mass
+        description: "Масса персонажа."
+      - name: skin_color
+        description: "Цвет кожи персонажа."
